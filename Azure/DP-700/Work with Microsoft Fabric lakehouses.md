@@ -3,7 +3,7 @@ When we create a lakehouse, we will have three default data items
 ![[image-1.png]]
 
 - The lakehouse contains shortcuts, folders, files ,tables
-- The semantic model provides an easy data source
+- The [[Semantic models]] provides an easy data source
 - The SQL analytics endpoint provides read-only access to query data
 
 We have different ways to ingest data into our lakehouse

@@ -5,8 +5,6 @@ aliases:
 tags: []
 ---
 
-# KQL Overview
-
 Kusto Query Language
 
 **Read-only** request language
@@ -19,3 +17,17 @@ person
 | project name, age
 
 ```
+
+A more complex example
+
+```kql
+stock
+ | where ["time"] > ago(5m)
+ | summarize avgPrice = avg(todecimal(bidPrice)) by symbol
+ | project symbol, avgPrice
+```
+
+[[Use KQL effectively]]
+
+[[Materialized views and stored functions]]
+

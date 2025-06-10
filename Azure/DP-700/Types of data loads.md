@@ -1,0 +1,4 @@
+|Load Type|Description|Operation|Duration|Complexity|Best used|
+|---|---|---|---|---|---|
+|**Full (initial) load**|The process of populating the data warehouse for the first time.|All the tables are truncated and reloaded, and the old data is lost|It may take longer to complete due to the amount of data being handled|Easier to implement as there's no history preserved|This method is typically used when setting up a new data warehouse, or when a complete refresh of the data is required|
+|**Incremental load**|The process of updating the data warehouse with the changes since the last update|The history is preserved, and tables are updated with new information|Takes less time than the initial load|Implementation is more complex than the initial load|This method is commonly used for regular updates to the data warehouse, such as daily or hourly updates. It requires mechanisms to track changes in the source data since the last load.|

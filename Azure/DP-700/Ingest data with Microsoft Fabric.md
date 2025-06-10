@@ -22,3 +22,9 @@ What Dataflows Gen2 offer:
 [[Explore Dataflows Gen2]]
 
 [[Integrate Dataflows Gen2 and Pipelines]]
+
+[[Get started with Real-Time Intelligence in Microsoft Fabric]]
+
+[[Use real-time eventstreams in Microsoft Fabric]]
+
+[[Work with real-time data in a Microsoft Fabric eventhouse]]

@@ -4,7 +4,11 @@
 
 Each week 1-2 units
 
- [[Implement a lakehouse with Microsoft Fabric]]
+[[Implement a lakehouse with Microsoft Fabric]]
 
 [[Ingest data with Microsoft Fabric]]
+
+[[Implement real-time intelligence with Microsoft Fabric]]
+
+[[Implement a data warehouse in Microsoft Fabric]]
 

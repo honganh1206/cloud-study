@@ -9,6 +9,6 @@ tags: []
 
 [[SQL in Fabric]]
 
-[[KQL Overview]]
+[[KQL]]
 
 [[PySpark Overview]]
